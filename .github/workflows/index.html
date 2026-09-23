@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cathlynn — BSCS student & front-end developer. Anime-styled, video-game HUD portfolio.">
+<title>CATHLYNN.ath | BSCS Portfolio</title>
+<link rel="icon" type="image/svg+xml" href="c:\Users\athcr\OneDrive\Desktop\web\ChatGPT Image Sep 23, 2026, 06_33_38 PM.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="top">
+  <a class="brand" href="#home">
+    <img src="c:\Users\athcr\OneDrive\Desktop\web\ChatGPT Image Sep 23, 2026, 06_33_38 PM.png" alt="Cathlynn CB logo" class="brand-logo">
+    <span class="brand-text glitch" data-text="CATHLYNN.exe">CATHLYNN.ath</span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#home" class="nav-link active">&gt; HOME</a>
+    <a href="#about" class="nav-link">&gt; ABOUT</a>
+    <a href="#projects" class="nav-link">&gt; PROJECTS</a>
+    <a href="#achievements" class="nav-link">&gt; ACHIEVEMENTS</a>
+    <a href="#testimony" class="nav-link">&gt; TESTIMONY</a>
+    <a href="#contact" class="nav-link">&gt; CONTACT</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ============ HERO / HOME ============ -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <p class="hero-kicker">// PLAYER PROFILE LOADED — SAVE FILE: DANGER</p>
+    <h1 class="hero-title glitch" data-text="CATHLYNN">CATHLYNN</h1>
+    <p class="hero-class">CLASS: <span id="typed"></span><span class="cursor">&#9608;</span></p>
+    <p class="hero-tag"> ⓘ NOTIFICATION 
+    <li>[You've become a Player.]</li>
+    <li>[Daily Quests: Coding Training has arrived.]</li>
+        
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">&#9654; VIEW MY WORK</a>
+      <a href="#contact" class="btn btn-ghost">&#9993; CONTACT ME</a>
+    </div>
+
+    <div class="status-window hud-panel reveal">
+      <div class="status-head">
+        <span class="dot dot-pink"></span><span class="dot dot-cyan"></span><span class="dot dot-purple"></span>
+        <span class="status-title">STATUS_WINDOW — LV.???</span>
+      </div>
+      <div class="status-body">
+        <div class="stat-row"><span class="stat-label">HP</span>
+          <div class="bar"><div class="fill fill-hp" data-width="92%"></div></div><span class="stat-val">92/100</span></div>
+        <div class="stat-row"><span class="stat-label">MP</span>
+          <div class="bar"><div class="fill fill-mp" data-width="78%"></div></div><span class="stat-val">78/100</span></div>
+        <div class="stat-row"><span class="stat-label">XP</span>
+          <div class="bar"><div class="fill fill-xp" data-width="64%"></div></div><span class="stat-val">64%</span></div>
+        <p class="status-note">&gt; Buffs: [Deadline Rush] [Lotang] [Lazy] [Cute]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <h2 class="section-title reveal">&gt; ABOUT_ME<span class="blink">_</span></h2>
+  <div class="about-grid">
+    <div class="about-left reveal">
+      <div class="hud-panel profile-panel">
+        <div class="status-head">
+          <span class="dot dot-pink"></span><span class="dot dot-cyan"></span><span class="dot dot-purple"></span>
+          <span class="status-title">CHARACTER_CARD.CB</span>
+        </div>
+        <div class="profile-body">
+          <img src="c:\Users\athcr\OneDrive\Desktop\web\Portal.jpg" alt="Pixel-art avatar of Cathlynn" class="profile-img">
+          <ul class="profile-stats">
+            <li><span>NAME</span><b>Cathlynn</b></li>
+            <li><span>CLASS</span><b>CS Student</b></li>
+            <li><span>LV.</span><b>999999999</b></li>
+            <li><span>GUILD</span><b>BSCS Dept.</b></li>
+            <li><span>ALIGNMENT</span><b>Arise Coder</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="counter-row hud-panel reveal">
+        <div class="counter"><span class="counter-num" data-target="17">0</span><span class="counter-label">Projects</span></div>
+        <div class="counter"><span class="counter-num" data-target="12">0</span><span class="counter-label">Certs &amp; Awards</span></div>
+        <div class="counter"><span class="counter-num" data-target="10">0</span><span class="counter-label">Hackathons</span></div>
+        <div class="counter"><span class="counter-num" data-target="99">0</span><span class="counter-label">% Passion</span></div>
+      </div>
+    </div>
+    <div class="about-right reveal">
+      <p class="bio">Hello, world! I'm <b class="hl-pink">Cathlynn</b>, a Bachelor of Science in Computer Science
+        student who treats every project like a new game quest. I fell in love with programming the first time
+        a line of code made something appear on screen — and I've been chasing that feeling ever since.</p>
+      <p class="bio">My main quest is <b class="hl-cyan">backend development</b>: building interfaces that feel
+        alive, with game-HUD polish and anime-level energy. Side quests include Java, Python, and dabbling
+        in game development with Godot.</p>
+      <p class="bio"><b class="hl-purple">Career goal:</b> to become a Backend dev / game developer (and eventually a
+        Mobile Application Development) who ships experiences that make people smile before they even click anything.</p>
+      <h3 class="skills-title">&gt; SKILL_TREE [unlocked]</h3>
+      <div class="skills">
+        <span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span>
+        <span class="chip">Java</span><span class="chip">Python</span><span class="chip">SQL</span>
+        <span class="chip">Git &amp; GitHub</span><span class="chip">Debugging and testing</span><span class="chip">App deployment</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <h2 class="section-title reveal">&gt; PROJECT_LOGS<span class="blink">_</span></h2>
+  <p class="section-sub reveal">// Quests completed. Loot: experience &amp; confidence.</p>
+  <div class="projects-grid">
+    <article class="project-card hud-panel reveal">
+      <div class="project-img-wrap">
+        <img src="c:\Users\athcr\OneDrive\Desktop\web\1f265d17-fbf0-42e3-95fd-8ff5fecf09f1.png" alt="Pixel Quest RPG game screenshot">
+        <span class="project-badge">SIDE QUEST</span>
+      </div>
+      <div class="project-body">
+        <h3>Pixel Quest RPG</h3>
+        <p>A retro browser RPG prototype with turn-based battles, an HP/MP status HUD,
+          and save-game logic built with vanilla JavaScript. Final boss: my own spaghetti code.</p>
+        <div class="tech"><span class="chip chip-sm">JavaScript</span><span class="chip chip-sm">Canvas</span><span class="chip chip-sm">CSS3</span></div>
+        <div class="project-links">
+          <a href="#" class="plink" onclick="return demoAlert(event)">&#9654; Live Demo</a>
+          <a href="#" class="plink" onclick="return demoAlert(event)">&lt;/&gt; Source</a>
+        </div>
+      </div>
+    </article>
+    <article class="project-card hud-panel reveal">
+      <div class="project-img-wrap">
+        <img src="c:\Users\athcr\OneDrive\Desktop\web\cdac6b0b-6181-4ac2-bd32-5aa8194e64a7.png" alt="StudyTracker dashboard screenshot">
+        <span class="project-badge badge-cyan">MAIN QUEST</span>
+      </div>
+      <div class="project-body">
+        <h3>StudyTracker Dashboard</h3>
+        <p>A gamified study-habit tracker: streak counters, XP bars, and anime-style achievement
+          toasts. LocalStorage keeps your save file safe even after closing the tab.</p>
+        <div class="tech"><span class="chip chip-sm">HTML5</span><span class="chip chip-sm">CSS3</span><span class="chip chip-sm">JavaScript</span></div>
+        <div class="project-links">
+          <a href="#" class="plink" onclick="return demoAlert(event)">&#9654; Live Demo</a>
+          <a href="#" class="plink" onclick="return demoAlert(event)">&lt;/&gt; Source</a>
+        </div>
+      </div>
+    </article>
+    <article class="project-card hud-panel reveal">
+      <div class="project-img-wrap">
+        <img src="c:\Users\athcr\OneDrive\Desktop\web\f4a0eb51-bac7-42bd-a92d-d418bccfba9f.png" alt="Anime palette generator preview">
+        <span class="project-badge badge-purple">BONUS STAGE</span>
+      </div>
+      <div class="project-body">
+        <h3>AniPalette Generator</h3>
+        <p>A color-palette tool inspired by anime screencaps — generates neon HUD themes and
+          exports them as CSS variables. Built as my love letter to #ff2e88.</p>
+        <div class="tech"><span class="chip chip-sm">JavaScript</span><span class="chip chip-sm">CSS Variables</span></div>
+        <div class="project-links">
+          <a href="#" class="plink" onclick="return demoAlert(event)">&#9654; Live Demo</a>
+          <a href="#" class="plink" onclick="return demoAlert(event)">&lt;/&gt; Source</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section class="section" id="achievements">
+  <h2 class="section-title reveal">&gt; ACHIEVEMENTS_UNLOCKED<span class="blink">_</span></h2>
+  <p class="section-sub reveal">// Rare drops &amp; completed milestone quests.</p>
+  <div class="ach-grid">
+    <article class="ach-card hud-panel reveal">
+      <img src="c:\Users\athcr\OneDrive\Desktop\web\ChatGPT Image Sep 23, 2026, 06_58_11 PM.png" alt="Dean's List badge" class="ach-badge">
+      <h3>Dean's Lister</h3>
+      <p>Consistent Dean's List honors, College of Computer Studies — top of the leaderboard for three consecutive semesters.</p>
+      <span class="ach-rarity rarity-gold">&#9733; RARITY: GOLD</span>
+    </article>
+    <article class="ach-card hud-panel reveal">
+      <img src="c:\Users\athcr\OneDrive\Desktop\web\ChatGPT Image Sep 23, 2026, 07_00_26 PM.png" alt="Java certification badge" class="ach-badge">
+      <h3>Java Programming Certification</h3>
+      <p>Completed an intensive Java SE course covering OOP, data structures, and exception handling. New skill node unlocked.</p>
+      <span class="ach-rarity rarity-rare">&#9733; RARITY: RARE</span>
+    </article>
+    <article class="ach-card hud-panel reveal">
+      <img src="c:\Users\athcr\OneDrive\Desktop\web\ChatGPT Image Sep 23, 2026, 07_01_08 PM.png" alt="Hackathon finalist badge" class="ach-badge">
+      <h3>Hackathon 2025 — Finalist</h3>
+      <p>Reached the finals of a 36-hour campus hackathon with a student-assistant web app. Survived on 4 hours of sleep and instant ramen.</p>
+      <span class="ach-rarity rarity-epic">&#9733; RARITY: EPIC</span>
+    </article>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="testimony">
+  <h2 class="section-title reveal">&gt; PARTY_MEMBER_TESTIMONY<span class="blink">_</span></h2>
+  <p class="section-sub reveal">// What my party says after co-op quests.</p>
+  <div class="testi-grid">
+    <blockquote class="testi-card hud-panel reveal">
+      <p class="testi-quote">&quot;Cathlynn debugs like she has a sixth sense. Our group project's back-end
+        went from 'help' to 'how did you DO that' in one weekend. Her CSS is basically magic and she's cute.&quot;</p>
+      <footer class="testi-author">
+        <span class="avatar avatar-pink">K</span>
+        <div><b>Mnijungkook.</b><span class="testi-role">Project Groupmate — Web Systems Course</span></div>
+        <span class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </footer>
+    </blockquote>
+    <blockquote class="testi-card hud-panel reveal">
+      <p class="testi-quote">&quot;One of the most determined students I've mentored. She asks the questions
+        others are afraid to ask, and her pixel-art-meets-clean-code aesthetic is genuinely distinctive.&quot;</p>
+      <footer class="testi-author">
+        <span class="avatar avatar-cyan">D</span>
+        <div><b>Prof. Mike Ross</b><span class="testi-role">Mentor — Programming Fundamentals</span></div>
+        <span class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </footer>
+    </blockquote>
+    <blockquote class="testi-card hud-panel reveal">
+      <p class="testi-quote">&quot;We paired her with a 'boring' admin dashboard task and she returned a
+        game-HUD interface the client actually cheered for in the demo call. Enough said.&quot;</p>
+      <footer class="testi-author">
+        <span class="avatar avatar-purple">S</span>
+        <div><b>Kathrine Pierce.</b><span class="testi-role">Team Lead — Campus Freelance Guild</span></div>
+        <span class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <h2 class="section-title reveal">&gt; SEND_MESSAGE<span class="blink">_</span></h2>
+  <p class="section-sub reveal">// Establishing connection... Party invite? Quest offer? Say hi!</p>
+  <div class="contact-grid">
+    <form class="contact-form hud-panel reveal" id="contactForm" novalidate>
+      <div class="status-head">
+        <span class="dot dot-pink"></span><span class="dot dot-cyan"></span><span class="dot dot-purple"></span>
+        <span class="status-title">NEW_MESSAGE.draft</span>
+      </div>
+      <div class="form-body">
+        <label for="name">&gt; PLAYER_NAME:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+        <label for="email">&gt; EMAIL_ADDRESS:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <label for="message">&gt; MESSAGE:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+        <p class="form-status" id="formStatus" aria-live="polite"></p>
+        <button type="submit" class="btn btn-primary btn-send">&#9654; SEND MESSAGE</button>
+      </div>
+    </form>
+    <aside class="contact-side reveal">
+      <div class="hud-panel contact-info">
+        <div class="status-head">
+          <span class="dot dot-pink"></span><span class="dot dot-cyan"></span><span class="dot dot-purple"></span>
+          <span class="status-title">CONTACT_INFO.cfg</span>
+        </div>
+        <div class="form-body">
+          <p class="info-line"><span class="info-key">EMAIL</span> cathlynn.dev@example.com</p>
+          <p class="info-line"><span class="info-key">LOCATION</span> Manila, Philippines (GMT+8)</p>
+          <p class="info-line"><span class="info-key">STATUS</span> <span class="online-dot"></span> Online — accepting quests</p>
+        </div>
+      </div>
+      <div class="hud-panel socials">
+        <div class="status-head">
+          <span class="dot dot-pink"></span><span class="dot dot-cyan"></span><span class="dot dot-purple"></span>
+          <span class="status-title">SOCIAL_LINKS</span>
+        </div>
+        <div class="social-body">
+          <a href="https://github.com" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.53-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.7 5.38-5.27 5.67.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .31.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8.09h4.56V23H.22V8.09zM8.34 8.09h4.37v2.04h.06c.61-1.15 2.1-2.37 4.32-2.37 4.62 0 5.47 3.04 5.47 6.99V23h-4.55v-7.21c0-1.72-.03-3.93-2.4-3.93-2.4 0-2.77 1.87-2.77 3.8V23H8.34V8.09z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="mailto:cathlynn.dev@example.com" class="social-link" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M2 4h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm10 8.6L3.4 6h17.2L12 12.6zM2 7.9V18h20V7.9l-10 7-10-7z"/></svg>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <img src="assets/images/logo.svg" alt="" class="footer-logo">
+  <p>&gt; CATHLYNN.ath — quest log compiled with &#9829; and vanilla JS. WELCOME PLAYER.</p>
+  <p class="footer-copy">&copy; 2026 Cathlynn. All rights reserved. WILL YOU ACCEPT THIS JOB?.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
